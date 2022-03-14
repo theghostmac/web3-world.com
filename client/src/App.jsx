@@ -1,9 +1,15 @@
+import { navigation_bar, Welcome, footer, services, transactions } from './components';
+
 const App = () => {
   return (
-    <div className="App">
-      <h1 className="text-3xl font-bold underline">
-            Hello, Sojourner! Welcome to the Web3 World!
-          </h1>
+    <div className="min-h-screen">
+      <div className="gradient-bg-welcome">
+        <navigation_bar />
+        <Welcome />
+      </div>
+      <services />
+      <transactions />
+      <footer />
     </div>
   )
 }
