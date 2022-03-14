@@ -3,3 +3,5 @@ const navigation_bar = () => {
     <h1>Navigation Bar</h1>
     );
 }
+
+export default navigation_bar;
